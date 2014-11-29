@@ -1,4 +1,4 @@
-## TinyGrunt Template
+## tiny-grunt template
 
 Template to create a small but powerful grunt file with - 
 
