@@ -20,5 +20,10 @@ You can use it by typing something like this -
 	mkdir newproject
 	grunt-init tiny-grunt 
 
+	# Get it running!
+	npm install
+	bower install
+	grunt
+
 
 Released under the [unlicense](UNLICENSE).

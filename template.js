@@ -21,10 +21,11 @@ exports.template = function(grunt, init, done) {
 	};
 
 	// Ask the user questions, or go with the defaults 
-	init.process({}, [
-		init.prompt("name"),
-		init.prompt("base_dir"),
-		init.prompt("main_file"),
+	init.process({ 
+		base_dir : "app", 
+		main_file : "main.js"
+	}, [
+		init.prompt("name")
 	], function(error, options) {
 
 		// Copy everything from root into the new project folder 
