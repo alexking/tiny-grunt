@@ -5,7 +5,7 @@
 exports.description = "Create a small but powerful grunt file: server + livereload + bower + jshint"; 
 
 // Don't overwrite anything 
-exports.warnOn = ['*', '.*'];
+exports.warnOn = ['*'];
 
 exports.template = function(grunt, init, done) {
 
